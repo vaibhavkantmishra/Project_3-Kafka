@@ -7,12 +7,16 @@ Getting this streaming data into Apache Spark-Streaming is the first step to per
 
 ## Technologies Used
 
-* Kafka 2.13
-* Spark 2.4.5
+     Kafka 2.13
+     Spark 2.4.5
 
-[Kafka Python API](https://github.com/dpkp/kafka-python) is used to interact with kafka cluster. PySpark is used to write the spark streaming jobs.
 
-## Execute the Application
+## FEATURES
+    1: Real-Time Data is evaluated.
+    2: we get to know about kafka producer and consumer apart from SparkStreaming
+    3: This Gives the features about the messaging backend Algorithm that how it works.
+    
+## Execution of the Application
 
 Assuming Kafka and Spark of appropriate version is installed, the following commands are used to run the application.
 
@@ -40,6 +44,7 @@ bin/spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.
 
 An analysis of number of RSVPs from various cities in "US" region is performed on the RSVPs Stream.
 
-//TODO
-* Visualize the data using Bokeh
-* Explore ElasticSearch and Kibana to Visualize
+
+
+## REFERENCE
+    http://stream.meetup.com/2/rsvps
