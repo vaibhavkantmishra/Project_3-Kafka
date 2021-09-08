@@ -15,6 +15,10 @@ Getting this streaming data into Apache Spark-Streaming is the first step to per
     1: Real-Time Data is evaluated.
     2: we get to know about kafka producer and consumer apart from SparkStreaming
     3: This Gives the features about the messaging backend Algorithm that how it works.
+## PROBLEM STATEMENT
+
+    1: What are the current active cities in India which are scheduling Meetup Events?
+    2: What are the trending topics in US Meetup Events?
     
 ## Execution of the Application
 
