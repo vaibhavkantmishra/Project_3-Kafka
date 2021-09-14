@@ -7,8 +7,13 @@ Getting this streaming data into Apache Spark-Streaming is the first step to per
 
 ## Technologies Used
 
-     Kafka 2.13
-     Spark 2.4.5
+      1. Python 3.6
+      2. Kafka 2.8.0
+      3. Spark 3.1.2
+      4. Pyspark 2.4.8
+      5. Git/GitHub
+      6. kafka-python 2.0.2
+      7. matplotlib 3.4.3
 
 
 ## FEATURES
@@ -17,8 +22,9 @@ Getting this streaming data into Apache Spark-Streaming is the first step to per
     3: This Gives the features about the messaging backend Algorithm that how it works.
 ## PROBLEM STATEMENT
 
-    1: What are the current active cities in India which are scheduling Meetup Events?
+    1: What are the current active cities in the US which are scheduling Meetup Events?
     2: What are the trending topics in US Meetup Events?
+    3: How many Big data Meetup Events events scheduled in each country?
     
 ## Execution of the Application
 
